@@ -19,6 +19,6 @@ exports.allmenu = (conn, prefix, pushname) => {
 ≻ ${prefix}instagram
 ≻ ${prefix}facebook
 
-fitur lainnya masih dalam tahap pengembangan, request fitur chat ${prefix}owner
+fitur lainnya masih dalam tahap pengembangan,
     `
 }

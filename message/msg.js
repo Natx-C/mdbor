@@ -138,9 +138,9 @@ module.exports = async(conn, msg, m, setting) => {
 		}
 		
 		const templateButtons = [
-			{ callButton: {displayText: `Call Owner!`, phoneNumber: `+62895369318181`} },
-			{ urlButton: { displayText: `Website!`, url : `https://lulzghost-team.blogspot.com`} },
-			{ quickReplyButton: { displayText: `🧑 Owner`, id: `${prefix}owner` } },
+			
+			{ urlButton: { displayText: `owmer!`, url : `wa.me/6285777451314`} },
+			
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `📋 All Menu`, id: `${prefix}allmenu` } }
 		]
@@ -291,7 +291,7 @@ Bot ini adalah Beta *Multi-Device* WhatsApp. Jika menemukan bug/error pada bot i
 				 caption: `${data.title}\n\nKamu bisa mengubahnya menjadi Vidio Tanpa Watermark atau Audio, pencet tombol dibawah untuk mengubahnya!`,
 				 buttons: [{buttonId: `${prefix}tiktoknowm ${args[1]}`, buttonText: { displayText: "Without Watermark" }, type: 1 },
 					   {buttonId: `${prefix}tiktokaudio ${args[1]}`, buttonText: { displayText: "Audio" }, type: 1 }],
-				 footer: "Create by @AhmadChenDev"
+				 footer: "Create by @nat"
 			      }, { quoted: msg })
 			    }).catch(() => reply(mess.error.api))
 			    break

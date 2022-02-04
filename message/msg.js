@@ -198,7 +198,7 @@ Bot ini adalah Beta *Multi-Device* WhatsApp. Jika menemukan bug/error pada bot i
 		            break
 			case prefix+'donate':
 			case prefix+'donasi':
-			    reply(`──「 MENU DONATE 」──\n\nHi ${pushname} 👋🏻\n\`\`\`GOPAY : 0895369318181\`\`\`\n\`\`\`PULSA : 0895369318181 (TRI)\`\`\`\nTerimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini _^\n──「 THX FOR YOU ! 」──`)
+			    reply(`──「 MENU DONATE 」──\n\nHi ${pushname} 👋🏻\n\`\`\`GOPAY : 085777451314\`\`\`\n\`\`\`PULSA : 081331815772 (TSEL)\`\`\`\nTerimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini _^\n──「 THX FOR YOU ! 」──`)
 			    break
 			case prefix+'owner':
 			    for (let x of ownerNumber) {
